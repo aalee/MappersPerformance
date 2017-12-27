@@ -2,16 +2,15 @@
 Performance test for some mappers
 Project to test the performance of some mappers like AutoMapper, using BenchmarkDotNet
 
-##Example:
+## Example:
 
 ``` ini
 
 BenchmarkDotNet=v0.10.11, OS=Windows 10 Redstone 3 [1709, Fall Creators Update] (10.0.16299.125)
 Processor=Intel Core i7-7500U CPU 2.70GHz (Kaby Lake), ProcessorCount=4
-Frequency=2835938 Hz, Resolution=352.6170 ns, Timer=TSC
-.NET Core SDK=2.0.3
-  [Host]     : .NET Core 2.0.3 (Framework 4.6.25815.02), 64bit RyuJIT
-  DefaultJob : .NET Core 2.0.3 (Framework 4.6.25815.02), 64bit RyuJIT
+Frequency=2835938 Hz, Resolution=352.6170 ns, Timer=TSC  .NET Core SDK=2.0.3
+[Host]     : .NET Core 2.0.3 (Framework 4.6.25815.02), 64bit RyuJIT
+DefaultJob : .NET Core 2.0.3 (Framework 4.6.25815.02), 64bit RyuJIT
 
 
 ```
